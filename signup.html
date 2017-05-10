@@ -4,15 +4,28 @@
 	<title>Analog Sea - Sign up form</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
  	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<meta name="description" content="Analog Sea Sign up Form">
 	<meta name="keywords" content="Analog Sea, cloud, cloud, cloud startup">
 </head>
 <body>
   <main>
 		<img src="logo.png" class="logo" alt="Analog Sea Logo">
+		
 		<form class='sign-up-form' action="/signup/" method='post'>
-		<h1>Sign Up</h1>
 
+		<fieldset name="Sign-up-form-Analog-Sea">
+      	<h1 class="sign-up">Sign up</h1>
+      	<label for="email">Email</label>
+        <input placeholder='mikhail.mironov@posteo.net' type="text" name='email' id='email' />
+        <label for="password">Password</label>
+        <input placeholder='12345!@#' type="text" name='password' id='password' />
+        <button type='submit'>Sign up</button>
+        <a class="forgot-password" href="#">Forgot password?</a> 
+        </fieldset>
+        </form>
+
+        <div>Already have an account? <a href="#">Log in</a></div>
 
 </main>
 
