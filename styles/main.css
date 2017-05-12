@@ -4,44 +4,37 @@ body {
 	box-sizing: border-box;
 }
 
-main {
-
-	border: 1px solid black;
-
-}
-
 .logo {
-    margin: 40px 0 20px 0;
+    margin: 60px auto 40px;
 	height: 35px;
-	border: 1px solid black;
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
 }
-
 
 form {
-	padding: 40px 40px 0 40px;
-	border: 1px solid black;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 400px;
+	margin: 0px auto;
+	width: 400px;
 	background-color: white;
-	position: relative;
+	border-radius: 1%;
+}
+
+fieldset {
+	/* I had to remove the border....- */
+	border: none;
+	margin: 20px;
+	padding: 20px 10px 30px 10px;
+
 }
 
 
 h1.sign-up {
 	text-align: center;
-	margin-top: 10px;
 	font-size: 35px;	
 	color: #565656;
 	font-weight: normal;
-
 }
 
 label {
-	margin: 20px 0 20px 0;
+	margin: 25px 0 20px 0;
 	display: block;	
 }
 
@@ -59,26 +52,37 @@ button {
 	background-color: #15cd72;
 	font-size: 22px;
 	color: white;
-	margin: 20px 0 20px 0;
+	margin: 25px 0 25px 0;
 	width: 335px;
 	padding: 15px;
 	border: none;
-	border-radius: 2%
+	border-radius: 3px;
+	cursor: pointer;
+}
 
+button:hover {
+	background-color: #0b9e55;
+}
+
+div.forgot-password {
+	color: #757575;
+	font-size: 14px;
+	text-align: center;
 }
 
 a.forgot-password {
 	color: #757575;
 	font-size: 14px;
-	border: 1px solid black;
-	display: block;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
 }
 
-.log-in {
+div.log-in {
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
 
+a.log-in {
+	color: white;
 }
 
 
